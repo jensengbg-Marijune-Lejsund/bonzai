@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>bonz.ai gallery</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="white-logo">
+        <a href="index.html"
+          ><img class="navlogo" src="./assets/logo/white-logo.png" alt="logo"
+        /></a>
+        <h1>bonz.ai</h1>
+        <nav class="navigation">
+          <a href="cabins.html">Cabins</a>
+          <a style="color: #f9b554;" href="gallery.html">Gallery</a>
+          <a href="about.html">About</a> <a href="contact.html">Contact</a>
+          <input class="search-bar" placeholder="Search" type="Search" />
+        </nav>
+      </section>
+
+      <section class="topnav">
+        <a
+          id="hamburger"
+          href="javascript:void(0);"
+          class="icon"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <div id="dropdown-content">
+          <a href="/cabins.html">Cabins</a> <a href="/gallery.html">Gallery</a>
+          <a href="/about.html">About</a> <a href="/contact.html">Contact</a>
+        </div>
+      </section>
+    </main>
+    <section class="gallery-main">
+      <img
+        src="./assets/photos/mountains.jpeg"
+        alt="mountains"
+        class="photo-one"
+      />
+
+      <img src="./assets/photos/sauna.jpeg" alt="sauna" class="photo-two" />
+
+      <img
+        src="./assets/photos/forest1.jpeg"
+        alt="forest"
+        class="photo-three"
+      />
+    </section>
+    <section class="gallery-description">
+      <h2 class="gallery-comment">Sauna with a View</h2>
+    </section>
+    <footer>
+      <div class="contact-info">
+        <p>Contact us!</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>E-mail: bonz@ai.com</p>
+      </div>
+      <div class="contact-logo">
+        <img class="footer-logo" src="./assets/logo/footerlogo.png" alt="" />
+      </div>
+      <div class="contact-social">
+        <p>Connect with us!</p>
+        <img class="footer-social" src="./assets/logo/social.png" alt="" />
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
