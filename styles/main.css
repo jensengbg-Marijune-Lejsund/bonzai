@@ -27,6 +27,76 @@ body {
   background-color: #dbdede;
 }
 
+.banner-background {
+  height: 400px;
+  width: 100%;
+}
+
+.banner-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+button {
+  background-color: #f9b554;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-image {
+  width: 40%;
+  height: auto;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  background-color: white;
+  margin: 2rem;
+}
+
+.card-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 2rem;
+  width: 25%;
+}
+
+.bookButton {
+  background-color: #f9b554;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  -webkit-box-shadow: 4px 4px 5px #594d4a;
+          box-shadow: 4px 4px 5px #594d4a;
+}
+
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -2rem;
+}
+
 .navlogo {
   width: 3.8rem;
   height: 3.5rem;
